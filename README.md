@@ -4,7 +4,7 @@ The objective of this solution is to carry out automated bank payment and refund
 
 ## 2 Architecture
 In the screenshot below, the architecture of the project is shown.
-![Architecture](https://github.com/souldev23/pci.bridge.gadget/blob/main/screenshoots/architecture.png?raw=true):
+![Architecture](https://github.com/souldev23/pci.bridge.gadget/blob/main/screenshoots/architecture.png?raw=true)
 
 ## 3 Description
 1. The CRM triggers the payment or refund process (as the case may be).
@@ -27,7 +27,7 @@ The Bridge is developed in C # language and uses the HttpListener class. The cla
 * .Net Framework: 4.5v
 *	References:
 
-![References](https://github.com/souldev23/pci.bridge.gadget/blob/main/screenshoots/Requirements.png?raw=true):
+![References](https://github.com/souldev23/pci.bridge.gadget/blob/main/screenshoots/Requirements.png?raw=true)
 
 The content of the solution is shown below, and notable files are marked in red.
 ![Solution content](https://github.com/souldev23/pci.bridge.gadget/blob/main/screenshoots/Finesse_Bridge%20Solution.png?raw=true)
@@ -55,4 +55,145 @@ The gadget project contains the following files:
 * **ThemePCI.css:** Contains the styles that are used.
 
 Below is a screenshot of the GUI within Finesse
-![GadgetPCI GUI]()
+
+Sales GUI
+![GadgetPCI Sales GUI](https://github.com/souldev23/pci.bridge.gadget/blob/main/screenshoots/Gadget%20vta.png?raw=true)
+
+Refund GUI
+![GadgetPCI Refund GUI](https://github.com/souldev23/pci.bridge.gadget/blob/main/screenshoots/Gadget%20dvl.png?raw=true)
+
+The GUI shown is conditional on the number of parameters. For example:
+
+HTML Test interface:
+```HTML
+<body>
+    <fieldset id="fsSales">
+        <table>
+            <tr>
+                <td>No. Orden:</td>
+                <td><input id="nOrden" /></td>
+            </tr>
+            <tr>
+                <td>Banco:</td>
+                <td><input id="cBanco" /></td>
+            </tr>
+            <tr>
+                <td>Monto:</td>
+                <td><input id="nMonto" /></td>
+            </tr>
+            <tr>
+                <td>Armado:</td>
+                <td><input id="bArmado" type="checkbox" checked="checked" /></td>
+            </tr>
+            <tr>
+                <td>Locación:</td>
+                <td><input id="nLocation" /></td>
+            </tr>
+            <tr>
+                <td>Parametro Cybersource:</td>
+                <td><input id="cCyberS" /></td>
+            </tr>
+            <tr>
+                <td><input value="Send Sale" type="button" onclick="sendSale();" /></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+               <td></td>
+            </tr>
+        </table>
+    </fieldset>
+    <fieldset id="fsDevs">
+        <table>
+            <tr>
+                <td>No. Orden:</td>
+                <td><input id="nOrdenD" /></td>
+            </tr>
+            <tr>
+               <td>Tarjeta truncada:</td>
+                <td><input id="cCard" /></td>
+            </tr>
+            <tr>
+                <td>Monto:</td>
+                <td><input id="nMontoD" /></td>
+            </tr>
+            <tr>
+                <td><input value="Send Refund" type="button" onclick="sendRefund();" /></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+            </tr>
+        </table>
+    </fieldset>
+<body>
+```
+And the Javascript code behind sendSale and sendRefund look's like:
+```javascript
+function sendSale() {
+    var bArm = document.getElementById("bArmado");
+
+    var dataClient = {  
+        "arm":bArm.checked,
+        "nor":$("#nOrden").val(),
+        "bnc":$("#cBanco").val(),
+        "mnt": $("#nMonto").val(),
+        "loc": $("#nLocation").val(),
+        "pcs": $("#cCyberS").val()
+    }
+    console.log(JSON.stringify(dataClient));
+    $.ajax({
+        url: "http://127.0.0.1:8880/pci_bridge/sls/",
+        type: "POST",
+        data: JSON.stringify(dataClient),
+        success: handleResponseSuccess,//Your function
+        error: handleResponseError//Your function
+    });
+}
+
+function sendRefund() {
+    var bArm = document.getElementById("bArmado");
+
+    var dataClient = {
+       "nor": $("#nOrdenD").val(),
+        "tct": $("#cCard").val(),
+        "mnt": $("#nMontoD").val()
+    }
+    console.log(JSON.stringify(dataClient));
+    $.ajax({
+        url: "http://127.0.0.1:8880/pci_bridge/dvl/",
+        type: "POST",
+        data: JSON.stringify(dataClient),
+        success: handleResponseSuccess,
+        error: handleResponseError
+    });
+}
+```
+Finally, the notification for local test that should come from the IVR should have the following format:
+```javascript
+function Notify() {
+    var dataClient = {
+        "nor": "738389",
+        "tct": "4765********9031",
+        "mnt": 83773.23,
+        "mne": "SUCCESS",
+        "fec": "20191030",
+        "nau": "5578765443",
+        "pro": "3msi",
+        "hor": "12:20:35"
+    }
+    console.log(JSON.stringify(dataClient));
+    $.ajax({
+        url: "http://127.0.0.1:8880/pci_bridge/ivr/",
+        type: "POST",
+        data: JSON.stringify(dataClient),
+        success: handleResponseSuccess,
+        error: handleResponseError
+    });
+}
+```
+Enjoy.
