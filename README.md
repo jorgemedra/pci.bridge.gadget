@@ -30,7 +30,7 @@ The Bridge is developed in C # language and uses the HttpListener class. The cla
 ![References](https://github.com/souldev23/pci.bridge.gadget/blob/main/screenshoots/Requirements.png?raw=true):
 
 The content of the solution is shown below, and notable files are marked in red.
-![Solution content](https://github.com/souldev23/pci.bridge.gadget/blob/main/screenshoots/Finesse_Bridge%20Solution.png?raw=true):
+![Solution content](https://github.com/souldev23/pci.bridge.gadget/blob/main/screenshoots/Finesse_Bridge%20Solution.png?raw=true)
 
 The project is customizable according to the requirements of the client, and this configuration is found in the files:
 * **App.config:** This file contains all the settings the service depends on to function the way you want it to. There are 4 configuration parameters for the Bridge application, below, it is described what each of them refers to.
@@ -40,11 +40,19 @@ The project is customizable according to the requirements of the client, and thi
   * **Protocol:** Indicates whether the bridge will work under an open environment that is secure, or closed and insecure, since the certificate will not be used, which is created during the installation of the service.
 
 * **Log4net.config:** Contains the configuration of the logging library, in this file you can change the way in which the logs will be created and saved.
+
+**Note:** _To use the service in debug mode, you need to run VS 2015 as administrator_
+
 #### GadgetPCI
 The Gadget is a component that is embedded within the Cisco Finesse interface, whose main task is to take the bridge data, store it in the call variables and transfer the call to the IVR to complete the transaction.
+
+It's important to mention, this gadget was designed for Finesse v11.5
 
 The gadget project contains the following files:
 * **GadgetPCI.xml:** Contains the gadget view.
 * **GadgetPCI.js:** Contains the Finesse logic.
 * **LogicPCI.js:** Control the gadget view.
 * **ThemePCI.css:** Contains the styles that are used.
+
+Below is a screenshot of the GUI within Finesse
+![GadgetPCI GUI]()
