@@ -1,0 +1,12 @@
+Z:\git\Oficced.Bridge.Gadget\OD_Finesse_Bridge\OD_Finesse_Bridge\bin\Debug\log4net.config
+Z:\git\Oficced.Bridge.Gadget\OD_Finesse_Bridge\OD_Finesse_Bridge\bin\Debug\OD_Finesse_Bridge.exe.config
+Z:\git\Oficced.Bridge.Gadget\OD_Finesse_Bridge\OD_Finesse_Bridge\bin\Debug\OD_Finesse_Bridge.exe
+Z:\git\Oficced.Bridge.Gadget\OD_Finesse_Bridge\OD_Finesse_Bridge\bin\Debug\OD_Finesse_Bridge.pdb
+Z:\git\Oficced.Bridge.Gadget\OD_Finesse_Bridge\OD_Finesse_Bridge\bin\Debug\Newtonsoft.Json.dll
+Z:\git\Oficced.Bridge.Gadget\OD_Finesse_Bridge\OD_Finesse_Bridge\bin\Debug\Newtonsoft.Json.xml
+Z:\git\Oficced.Bridge.Gadget\OD_Finesse_Bridge\OD_Finesse_Bridge\obj\Debug\Finesse_Bridge.csprojResolveAssemblyReference.cache
+Z:\git\Oficced.Bridge.Gadget\OD_Finesse_Bridge\OD_Finesse_Bridge\obj\Debug\OD_Finesse_Bridge.ProjectInstaller.resources
+Z:\git\Oficced.Bridge.Gadget\OD_Finesse_Bridge\OD_Finesse_Bridge\obj\Debug\OD_Finesse_Bridge.Service.resources
+Z:\git\Oficced.Bridge.Gadget\OD_Finesse_Bridge\OD_Finesse_Bridge\obj\Debug\Finesse_Bridge.csproj.GenerateResource.Cache
+Z:\git\Oficced.Bridge.Gadget\OD_Finesse_Bridge\OD_Finesse_Bridge\obj\Debug\OD_Finesse_Bridge.exe
+Z:\git\Oficced.Bridge.Gadget\OD_Finesse_Bridge\OD_Finesse_Bridge\obj\Debug\OD_Finesse_Bridge.pdb

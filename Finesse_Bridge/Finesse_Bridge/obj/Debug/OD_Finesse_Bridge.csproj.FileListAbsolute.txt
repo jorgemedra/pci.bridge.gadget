@@ -1,0 +1,51 @@
+C:\Users\MarkXXIV\Documents\Visual Studio 2015\Projects\OD_Finesse_Bridge\OD_Finesse_Bridge\bin\Debug\log4net.config
+C:\Users\MarkXXIV\Documents\Visual Studio 2015\Projects\OD_Finesse_Bridge\OD_Finesse_Bridge\bin\Debug\OD_Finesse_Bridge.exe.config
+C:\Users\MarkXXIV\Documents\Visual Studio 2015\Projects\OD_Finesse_Bridge\OD_Finesse_Bridge\bin\Debug\OD_Finesse_Bridge.exe
+C:\Users\MarkXXIV\Documents\Visual Studio 2015\Projects\OD_Finesse_Bridge\OD_Finesse_Bridge\bin\Debug\OD_Finesse_Bridge.pdb
+C:\Users\MarkXXIV\Documents\Visual Studio 2015\Projects\OD_Finesse_Bridge\OD_Finesse_Bridge\bin\Debug\log4net.dll
+C:\Users\MarkXXIV\Documents\Visual Studio 2015\Projects\OD_Finesse_Bridge\OD_Finesse_Bridge\bin\Debug\Newtonsoft.Json.dll
+C:\Users\MarkXXIV\Documents\Visual Studio 2015\Projects\OD_Finesse_Bridge\OD_Finesse_Bridge\bin\Debug\Newtonsoft.Json.xml
+C:\Users\MarkXXIV\Documents\Visual Studio 2015\Projects\OD_Finesse_Bridge\OD_Finesse_Bridge\obj\Debug\OD_Finesse_Bridge.ProjectInstaller.resources
+C:\Users\MarkXXIV\Documents\Visual Studio 2015\Projects\OD_Finesse_Bridge\OD_Finesse_Bridge\obj\Debug\OD_Finesse_Bridge.csproj.GenerateResource.Cache
+C:\Users\MarkXXIV\Documents\Visual Studio 2015\Projects\OD_Finesse_Bridge\OD_Finesse_Bridge\obj\Debug\OD_Finesse_Bridge.exe
+C:\Users\MarkXXIV\Documents\Visual Studio 2015\Projects\OD_Finesse_Bridge\OD_Finesse_Bridge\obj\Debug\OD_Finesse_Bridge.pdb
+C:\Users\MarkXXIV\Documents\Visual Studio 2015\Projects\OD_Finesse_Bridge\OD_Finesse_Bridge\obj\Debug\OD_Finesse_Bridge.csprojResolveAssemblyReference.cache
+C:\Users\soul2\Documents\OD_Finesse_Bridge\OD_Finesse_Bridge\bin\Debug\log4net.config
+C:\Users\soul2\Documents\OD_Finesse_Bridge\OD_Finesse_Bridge\bin\Debug\OD_Finesse_Bridge.exe.config
+C:\Users\soul2\Documents\OD_Finesse_Bridge\OD_Finesse_Bridge\bin\Debug\OD_Finesse_Bridge.exe
+C:\Users\soul2\Documents\OD_Finesse_Bridge\OD_Finesse_Bridge\bin\Debug\OD_Finesse_Bridge.pdb
+C:\Users\soul2\Documents\OD_Finesse_Bridge\OD_Finesse_Bridge\bin\Debug\Newtonsoft.Json.dll
+C:\Users\soul2\Documents\OD_Finesse_Bridge\OD_Finesse_Bridge\bin\Debug\Newtonsoft.Json.xml
+C:\Users\soul2\Documents\OD_Finesse_Bridge\OD_Finesse_Bridge\obj\Debug\OD_Finesse_Bridge.ProjectInstaller.resources
+C:\Users\soul2\Documents\OD_Finesse_Bridge\OD_Finesse_Bridge\obj\Debug\OD_Finesse_Bridge.csproj.GenerateResource.cache
+C:\Users\soul2\Documents\OD_Finesse_Bridge\OD_Finesse_Bridge\obj\Debug\OD_Finesse_Bridge.csproj.CopyComplete
+C:\Users\soul2\Documents\OD_Finesse_Bridge\OD_Finesse_Bridge\obj\Debug\OD_Finesse_Bridge.exe
+C:\Users\soul2\Documents\OD_Finesse_Bridge\OD_Finesse_Bridge\obj\Debug\OD_Finesse_Bridge.pdb
+C:\Users\soul2\Documents\OD_Finesse_Bridge\OD_Finesse_Bridge\obj\Debug\OD_Finesse_Bridge.csprojAssemblyReference.cache
+C:\Users\MarkXXIV\Desktop\OD_Finesse_Bridge(2)\OD_Finesse_Bridge\bin\Debug\log4net.config
+C:\Users\MarkXXIV\Desktop\OD_Finesse_Bridge(2)\OD_Finesse_Bridge\bin\Debug\OD_Finesse_Bridge.exe.config
+C:\Users\MarkXXIV\Desktop\OD_Finesse_Bridge(2)\OD_Finesse_Bridge\bin\Debug\OD_Finesse_Bridge.exe
+C:\Users\MarkXXIV\Desktop\OD_Finesse_Bridge(2)\OD_Finesse_Bridge\bin\Debug\OD_Finesse_Bridge.pdb
+C:\Users\MarkXXIV\Desktop\OD_Finesse_Bridge(2)\OD_Finesse_Bridge\bin\Debug\Newtonsoft.Json.dll
+C:\Users\MarkXXIV\Desktop\OD_Finesse_Bridge(2)\OD_Finesse_Bridge\bin\Debug\Newtonsoft.Json.xml
+C:\Users\MarkXXIV\Desktop\OD_Finesse_Bridge(2)\OD_Finesse_Bridge\obj\Debug\OD_Finesse_Bridge.ProjectInstaller.resources
+C:\Users\MarkXXIV\Desktop\OD_Finesse_Bridge(2)\OD_Finesse_Bridge\obj\Debug\OD_Finesse_Bridge.Service.resources
+C:\Users\MarkXXIV\Desktop\OD_Finesse_Bridge(2)\OD_Finesse_Bridge\obj\Debug\OD_Finesse_Bridge.csproj.GenerateResource.Cache
+C:\Users\MarkXXIV\Desktop\OD_Finesse_Bridge(2)\OD_Finesse_Bridge\obj\Debug\OD_Finesse_Bridge.exe
+C:\Users\MarkXXIV\Desktop\OD_Finesse_Bridge(2)\OD_Finesse_Bridge\obj\Debug\OD_Finesse_Bridge.pdb
+C:\Users\MarkXXIV\Documents\OD_Finesse_Bridge(2)\OD_Finesse_Bridge(2)\OD_Finesse_Bridge\bin\Debug\log4net.config
+C:\Users\MarkXXIV\Documents\OD_Finesse_Bridge(2)\OD_Finesse_Bridge(2)\OD_Finesse_Bridge\bin\Debug\OD_Finesse_Bridge.exe.config
+C:\Users\MarkXXIV\Documents\OD_Finesse_Bridge(2)\OD_Finesse_Bridge(2)\OD_Finesse_Bridge\bin\Debug\OD_Finesse_Bridge.exe
+C:\Users\MarkXXIV\Documents\OD_Finesse_Bridge(2)\OD_Finesse_Bridge(2)\OD_Finesse_Bridge\bin\Debug\OD_Finesse_Bridge.pdb
+C:\Users\MarkXXIV\Documents\OD_Finesse_Bridge(2)\OD_Finesse_Bridge(2)\OD_Finesse_Bridge\bin\Debug\Newtonsoft.Json.dll
+C:\Users\MarkXXIV\Documents\OD_Finesse_Bridge(2)\OD_Finesse_Bridge(2)\OD_Finesse_Bridge\bin\Debug\System.Management.Automation.dll
+C:\Users\MarkXXIV\Documents\OD_Finesse_Bridge(2)\OD_Finesse_Bridge(2)\OD_Finesse_Bridge\bin\Debug\Newtonsoft.Json.xml
+C:\Users\MarkXXIV\Documents\OD_Finesse_Bridge(2)\OD_Finesse_Bridge(2)\OD_Finesse_Bridge\obj\Debug\OD_Finesse_Bridge.ProjectInstaller.resources
+C:\Users\MarkXXIV\Documents\OD_Finesse_Bridge(2)\OD_Finesse_Bridge(2)\OD_Finesse_Bridge\obj\Debug\OD_Finesse_Bridge.Service.resources
+C:\Users\MarkXXIV\Documents\OD_Finesse_Bridge(2)\OD_Finesse_Bridge(2)\OD_Finesse_Bridge\obj\Debug\OD_Finesse_Bridge.csproj.GenerateResource.Cache
+C:\Users\MarkXXIV\Documents\OD_Finesse_Bridge(2)\OD_Finesse_Bridge(2)\OD_Finesse_Bridge\obj\Debug\OD_Finesse_Bridge.exe
+C:\Users\MarkXXIV\Documents\OD_Finesse_Bridge(2)\OD_Finesse_Bridge(2)\OD_Finesse_Bridge\obj\Debug\OD_Finesse_Bridge.pdb
+C:\Users\MarkXXIV\Documents\OD_Finesse_Bridge(2)\OD_Finesse_Bridge(2)\OD_Finesse_Bridge\obj\Debug\OD_Finesse_Bridge.csprojResolveAssemblyReference.cache
+Z:\git\Oficced.Bridge.Gadget\OD_Finesse_Bridge\OD_Finesse_Bridge\bin\Debug\OD_Finesse_Bridge.exe.config
+Z:\git\Oficced.Bridge.Gadget\OD_Finesse_Bridge\OD_Finesse_Bridge\obj\Debug\OD_Finesse_Bridge.exe
+Z:\git\Oficced.Bridge.Gadget\OD_Finesse_Bridge\OD_Finesse_Bridge\obj\Debug\OD_Finesse_Bridge.pdb

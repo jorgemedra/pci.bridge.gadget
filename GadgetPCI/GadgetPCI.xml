@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Module>
+    <ModulePrefs title="ODMS Gadget"
+        description="Gadget para recabar información de negocio"
+        thumbnail="http://localhost:8082/">
+
+        <Require feature="settitle" />
+        <Require feature="dynamic-height" />
+        <Require feature="pubsub-2" />
+        <Require feature="setprefs" />
+        <Require feature="loadingindicator">
+            <Param name="manual-dismiss">false</Param>
+            <Param name="loading-timeout">10</Param>
+        </Require>
+    </ModulePrefs>
+
+    <Content type="html">
+        <![CDATA[
+            <!DOCTYPE html>
+            <!-- Styling -->
+            <link rel="stylesheet" href="ThemeOD.css" type="text/css" />
+            <!-- jQuery -->
+            <script type="text/javascript" src="/desktop/assets/js/jquery.min.js"></script>
+            <script type="text/javascript" src="Commons.js"></script>
+            <!-- Finesse Library -->
+            <script type="text/javascript" src="/desktop/assets/js/finesse.js"></script>
+            
+            <script type="text/javascript" src="GadgetOD.js"></script>
+            <script type="text/javascript" src="LogicOD.js"></script>
+            
+            <body class="claro">
+                    
+                <fieldset id="fsSales">
+                    <table>
+                        <tr>
+                            <td>Continuar Disponible</td>
+                            <td><input id="chkReady" type="checkbox" checked="checked"/></td>
+                        </tr>
+                        <tr>
+                            <td class="right">No. Orden:</td>
+                            <td><input id="nOrden" disabled/></td>
+                        </tr>
+                        <tr>
+                            <td class="right">Banco:</td>
+                            <td><input id="cBanco" disabled/></td>
+                        </tr>
+                        <tr>
+                            <td class="right">Monto:</td>
+                            <td><input id="nMonto" disabled/></td>
+                        </tr>
+                        <tr>
+                            <td class="right">Armado:</td>
+                            <td><input id="bArmado" type="checkbox" disabled/></td>
+                        </tr>
+                        <tr>
+                            <td class="right">Locación:</td>
+                            <td><input id="nLocation" disabled/></td>
+                        </tr>
+                        <tr>
+                            <td class="right">Parametro Cybersource:</td>
+                            <td><input id="cCyberS" disabled/></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td><span id="msgVenta" ></span></td>
+                        </tr>
+                        <tr>
+                            <td><input id="IP" type="hidden"/><input id="op" type="hidden" value="1"></td>
+                            <td><input id="btnVta" value="Enviar Venta" type="button" onclick="finesse.modules.GadgetOD.makeCall(44677, this);" /></td>
+                        </tr>
+                    </table>
+                </fieldset>
+                <fieldset id="fsDevs" class="hidden">
+                    <table>
+                        <tr>
+                            <td class="right">No. Orden:</td>
+                            <td><input id="nOrdenD" disabled/></td>
+                        </tr>
+                        <tr>
+                            <td class="right">Tarjeta truncada:</td>
+                            <td><input id="cCard" disabled/></td>
+                        </tr>
+                        <tr>
+                            <td class="right">Monto:</td>
+                            <td><input id="nMontoD" disabled/></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td><span id="msgDevolucion" ></span></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td><input id="btnDvl" value="Enviar Devolución" type="button" onclick="finesse.modules.GadgetOD.makeCall(44676,this);" /></td>
+                        </tr>
+                    </table>
+                </fieldset>
+                <div id="transResult"></div>
+            </body>
+		<script type="text/javascript">
+			gadgets.HubSettings.onConnect = function () {
+				finesse.modules.GadgetOD.init();
+			};
+		</script>
+	]]>
+    </Content>
+</Module>

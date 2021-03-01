@@ -1,0 +1,14 @@
+﻿body {
+}
+
+.hidden{
+    display:none;
+}
+
+.show{
+    display:block;
+}
+
+.right {
+	text-align: right;
+}
