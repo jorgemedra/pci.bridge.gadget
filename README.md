@@ -4,7 +4,7 @@ The objective of this solution is to carry out automated bank payment and refund
 
 ## 2 Architecture
 In the screenshot below, the architecture of the project is shown.
-![Architecture](https://github.com/souldev23/Oficced.Bridge.Gadget/blob/master/screenshoots/architecture.png?raw=true):
+![Architecture](https://github.com/souldev23/pci.bridge.gadget/blob/main/screenshoots/architecture.png?raw=true):
 
 ## 3 Description
 1. The CRM triggers the payment or refund process (as the case may be).
@@ -24,10 +24,13 @@ The repository has two projects:
 #### Finesse_Bridge
 The Bridge is developed in C # language and uses the HttpListener class. The class belonging to the System.Net library, which allows you to emulate an IIS Web site. The specifications with development dependencies are listed below.
 *	Visual Studio 2015 project
-* .Net Framework: Version 4.5
+* .Net Framework: 4.5v
 *	References:
 
-![References](https://github.com/souldev23/Oficced.Bridge.Gadget/blob/master/screenshoots/Requirements.png?raw=true):
+![References](https://github.com/souldev23/pci.bridge.gadget/blob/main/screenshoots/Requirements.png?raw=true):
+
+The content of the solution is shown below, and notable files are marked in red.
+![Solution content](https://github.com/souldev23/pci.bridge.gadget/blob/main/screenshoots/Finesse_Bridge%20Solution.png?raw=true):
 
 The project is customizable according to the requirements of the client, and this configuration is found in the files:
 * **App.config:** This file contains all the settings the service depends on to function the way you want it to. There are 4 configuration parameters for the Bridge application, below, it is described what each of them refers to.
