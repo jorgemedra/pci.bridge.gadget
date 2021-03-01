@@ -54,6 +54,7 @@ The gadget project contains the following files:
 * **LogicPCI.js:** Control the gadget view.
 * **ThemePCI.css:** Contains the styles that are used.
 
+## GUI
 Below is a screenshot of the GUI within Finesse
 
 Sales GUI
@@ -62,8 +63,9 @@ Sales GUI
 Refund GUI
 ![GadgetPCI Refund GUI](https://github.com/souldev23/pci.bridge.gadget/blob/main/screenshoots/Gadget%20dvl.png?raw=true)
 
-The GUI shown is conditional on the number of parameters. For example:
+The GUI shown is conditional on the number of parameters.
 
+### TEST
 HTML Test interface:
 ```HTML
 <body>
