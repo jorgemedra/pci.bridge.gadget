@@ -11,7 +11,7 @@ In the screenshot below, the architecture of the project is shown.
 ##### Architecture components
 The architecture diagram shows all the components that participate in the solution. The functionality of each element is described below.
 
-* **Bridge Service:** *Windows Serviced developed in C#*. It is the component that has the responsibility to provide a Webhook port for receive all the notifications that the CVP App needs to report, in Real-Time, to the Gadget and CRM.
+* **Bridge Service:** *Windows Serviced developed in C#*. It is the component that has the responsibility to provide a Webhook port for receive all the notifications that the CVP App needs to dispatch, in Real-Time, to the Gadget and CRM.
 * **Finesse Gadget:** Component embedded in Finness session. its functions are: 
 Gathering call data to perform a transaction.
 Transferring the call to the CVP to perform a transaction, attaching the data into the *CallVariables*, including the URL that the Bridge Service provides to receive the notification.
@@ -23,7 +23,7 @@ Check for the result of the transaction, Asking the Bridge for the result of the
 1. A call arrives at the Agent's extension and Finnesse session.
 2.The Gadget receives the call's data.
 3. After a while, the Agent triggers a process of payment or refund, using the CRM.
-4. The CRM sends the data to the Bridge through an HTTP POST request, using its Webhook interface.
+4. The CRM sends the data to the Bridge through an HTTP POST request, using its Webhook interface, which is a unique port but different URL to attend the Gadget and another one to the CRM.
 5. Due to the Gadget requires monitoring for new commands, it's asking for new commands/events to the bridge, sending HTTP GET Requests. At that moment, the Gadget fetches for the information to be added to the call at the moment of transferring it.
 6. Using the Gadget, the call is transferred, using a Blind transfer, adding the CallsVars to the consult call. At this moment, the Gadget is waiting for the feedback of the transaction in the CVP.
 7. The CVP runs the transaction and, at the end of it, reports the result to the Webhook of the Bridge Service, sending an HTTP Post Request, using the Cisco cell.
